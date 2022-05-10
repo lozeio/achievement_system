@@ -1,7 +1,5 @@
-make.exe all --dry-run --keep-going --print-directory
-make.exe: Entering directory 'd:/Code/c++/liusenyuan/project'
- 
-make.exe: *** No rule to make target 'all'.
-
-make.exe: Leaving directory 'd:/Code/c++/liusenyuan/project'
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'd:/liusenyuan's/c++/achievement_system'
+g++ main.cpp login.cpp student.cpp students.cpp -o main
+make.exe: Leaving directory 'd:/liusenyuan's/c++/achievement_system'
  

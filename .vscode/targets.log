@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue May 10 19:59:19 2022
+# Make data base, printed on Tue May 10 20:31:02 2022
 
 # Variables
 
@@ -32,21 +32,21 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # makefile
-CURDIR := d:/Code/c++/liusenyuan/project
+CURDIR := d:/liusenyuan's/c++/achievement_system
 # default
 SHELL := sh.exe
 # environment
-WINDIR = C:\Windows
+WINDIR = C:\WINDOWS
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"a78078f10f99ab7adc9063c14c25e7ae.zh-cn","_translationsConfigFile":"C:\\Users\\45032\\AppData\\Roaming\\Code\\clp\\a78078f10f99ab7adc9063c14c25e7ae.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\45032\\AppData\\Roaming\\Code\\clp\\a78078f10f99ab7adc9063c14c25e7ae.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\45032\\AppData\\Roaming\\Code\\clp\\a78078f10f99ab7adc9063c14c25e7ae.zh-cn\\57fd6d0195bb9b9d1b49f6da5db789060795de47","_corruptedFile":"C:\\Users\\45032\\AppData\\Roaming\\Code\\clp\\a78078f10f99ab7adc9063c14c25e7ae.zh-cn\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"a78078f10f99ab7adc9063c14c25e7ae.zh-cn","_translationsConfigFile":"C:\\Users\\lenovo\\AppData\\Roaming\\Code\\clp\\a78078f10f99ab7adc9063c14c25e7ae.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\lenovo\\AppData\\Roaming\\Code\\clp\\a78078f10f99ab7adc9063c14c25e7ae.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\lenovo\\AppData\\Roaming\\Code\\clp\\a78078f10f99ab7adc9063c14c25e7ae.zh-cn\\57fd6d0195bb9b9d1b49f6da5db789060795de47","_corruptedFile":"C:\\Users\\lenovo\\AppData\\Roaming\\Code\\clp\\a78078f10f99ab7adc9063c14c25e7ae.zh-cn\\corrupted.info","_languagePackSupport":true}
 # environment
-ONEDRIVE = C:\Users\45032\OneDrive
+ONEDRIVE = C:\Users\lenovo\OneDrive
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from 'makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # environment
-TMP = C:\Users\45032\AppData\Local\Temp
+TMP = C:\Users\lenovo\AppData\Local\Temp
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
@@ -54,18 +54,21 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-09c648ad-2dcd-402c-9f40-53b65ec543ea-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-beb59d9f-4475-497c-aebd-706263ca7714-sock
 # environment
-VSCODE_CWD = D:\Code\c++\liusenyuan\project
+VSCODE_CWD = D:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code
 # environment
-PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;D:\Program Files (x86)\NetSarang\Xshell 7\;D:\Program Files\MATLAB\runtime\win64;D:\Program Files\MATLAB\bin;D:\Program Files\MATLAB\polyspace\bin;C:\MinGW\bin;C:\MinGW\include;D:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64;D:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\Scripts;C:\Users\45032\AppData\Local\Microsoft\Window 
-sApps;D:\Users\45032\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\45032\.dotnet\tools
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\MinGW\bin;D:\Program Files\MATLAB\R2022a\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Bandizip\;C:\Program Files\Git\cmd;E:\Users\lenovo\AppData\Local\Programs\Python\Python310\Scripts\;E:\Users\lenovo\AppData\Local\Programs\Python\Python310\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;D:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin
+# environment
+SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
+ZES_ENABLE_SYSMAN = 1
+# environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
-USERPROFILE = C:\Users\45032
+USERPROFILE = C:\Users\lenovo
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
@@ -79,11 +82,11 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_25956_ZJKPKIEJRKYWPSII
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11492_NAJMTCXWPDZWRQDG
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-COMPUTERNAME = LAPTOP-R8FBB7JJ
+COMPUTERNAME = 小猪的电脑
 # environment
 PROGRAMFILES = C:\Program Files (x86)
 # environment
@@ -91,25 +94,23 @@ DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERNAME = 45032
+USERNAME = lenovo
 # environment
 PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\45032\AppData\Roaming\Code\CachedData\57fd6d0195bb9b9d1b49f6da5db789060795de47
+VSCODE_CODE_CACHE_PATH = C:\Users\lenovo\AppData\Roaming\Code\CachedData\57fd6d0195bb9b9d1b49f6da5db789060795de47
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
-LOGONSERVER = \\LAPTOP-R8FBB7JJ
-# environment
-ONEDRIVECONSUMER = C:\Users\45032\OneDrive
+LOGONSERVER = \\小猪的电脑
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
-USERDOMAIN = LAPTOP-R8FBB7JJ
+USERDOMAIN = 小猪的电脑
 # environment
 MAKELEVEL := 0
 # default
@@ -121,15 +122,13 @@ MAKE_VERSION := 3.82.90
 # makefile
 .DEFAULT_GOAL := main
 # environment
-ACSVCPORT = 17532
-# environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # environment
-LOCALAPPDATA = C:\Users\45032\AppData\Local
+LOCALAPPDATA = C:\Users\lenovo\AppData\Local
 # environment
-PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
 # default
 MAKE_COMMAND := make.exe
 # environment
@@ -139,13 +138,13 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # automatic
 *F = $(notdir $*)
 # environment
-PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\2a88dd7e1ddea56886b381ef41e092de-1.67.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\db9312f16fd3ca26cdd1282f28873fac-1.67.0-main-sock
 # environment
-HOMEPATH = \Users\45032
+HOMEPATH = \Users\lenovo
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
@@ -155,34 +154,39 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
-SYSTEMROOT = C:\Windows
+SYSTEMROOT = C:\WINDOWS
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # automatic
 +F = $(notdir $+)
 # environment
-KMP_WARNINGS = 0
+APPDATA = C:\Users\lenovo\AppData\Roaming
 # environment
-APPDATA = C:\Users\45032\AppData\Roaming
+TEMP = C:\Users\lenovo\AppData\Local\Temp
 # environment
-TEMP = C:\Users\45032\AppData\Local\Temp
-# environment
-COMSPEC = C:\Windows\system32\cmd.exe
+COMSPEC = C:\WINDOWS\system32\cmd.exe
 # default
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
 # environment
 LC_ALL = C
+# environment
+SW_SIM_TEMP = C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\
 # automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
 # environment
 SYSTEMDRIVE = C:
-# envir 
-onment
-PROCESSOR_REVISION = 5000
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8d01
+# environment
+SW_SIM_MPIT = INTELMPI
+# environment
+MOZ_PLUGIN_PATH = D:\Program Files (x86)\Foxit Software\Foxit PDF Editor\plugins\
 # default
 .INCLUDE_DIRS = C:/MinGW/include
 # default
@@ -190,13 +194,13 @@ PROCESSOR_REVISION = 5000
 # environment
 LANG = C
 # environment
-PROCESSOR_LEVEL = 25
+PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 25956
+VSCODE_PID = 11492
 # environment
-USERDOMAIN_ROAMINGPROFILE = LAPTOP-R8FBB7JJ
+USERDOMAIN_ROAMINGPROFILE = 小猪的电脑
 # variable set hash-table stats:
-# Load=91/1024=9%, Rehash=0, Collisions=11/110=10%
+# Load=94/1024=9%, Rehash=0, Collisions=11/113=10%
 
 # Pattern-specific Variable Values
 
@@ -204,31 +208,35 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-R8FBB7JJ
 
 # Directories
 
-# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1624908408): 5 files, no impossibilities.
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1651809816): 32 files, no impossibilities.
-# . (key d:/Code/c++/liusenyuan/project, mtime 1652182564): 17 files, no impossibilities.
-# D:\Program Files\MATLAB\runtime\win64 (key D:/Program Files/MATLAB/runtime/win64, mtime 1651692156): 10 files, no impossibilities.
-# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1651667357): 5 files, no impossibilities.
-# D:\Program Files\Git\cmd (key D:/Program Files/Git/cmd, mtime 1651662206): 8 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/, mtime 1638528295): 6 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1623698281): 5 files, no impossibilities.
+# C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps (key C:/Users/lenovo/AppData/Local/Microsoft/WindowsApps, mtime 1651734899): 20 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1647866528): 32 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1647866726): 155 files, no impossibilities.
+# . (key d:/liusenyuan's/c++/achievement_system, mtime 1652185842): 18 files, no impossibilities.
+# D:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin (key D:/Users/lenovo/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1651901773): 4 files, no impossibilities.
+# D:\Program Files\Bandizip\ (key D:/Program Files/Bandizip/, mtime 1647878183): 20 files, no impossibilities.
+# E:\Users\lenovo\AppData\Local\Programs\Python\Python310\: could not be stat'd.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1652185567): 8 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
-# C:\MinGW\bin (key C:/MinGW/bin, mtime 1652165447): 145 files, no impossibilities.
-# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1624908331): 10 files, no impossibilities.
-# D:\Program Files (x86)\NetSarang\Xshell 7\ (key D:/Program Files (x86)/NetSarang/Xshell 7/, mtime 1651666060): 44 files, no impossibilities.
-# D:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64 (key D:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64, mtime 1651661774): 21 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1651943707): 134 files, no impossibilities.
-# C:\Users\45032\AppData\Local\Microsoft\WindowsApps (key C:/Users/45032/AppData/Local/Microsoft/WindowsApps, mtime 1651999348): 23 files, no impossibilities.
-# C:\MinGW\include (key C:/MinGW/include, mtime 1651908833): 305 files, no impossibilities.
-# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1651809816): 172 files, no impossibilities.
-# D:\Program Files\MATLAB\polyspace\bin (key D:/Program Files/MATLAB/polyspace/bin, mtime 1651692208): 83 files, no impossibilities.
-# D:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\Scripts (key D:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/Scripts, mtime 1651661774): 5 files, no impossibilities.
-# D:\Users\45032\AppData\Local\Programs\Microsoft VS Code\bin (key D:/Users/45032/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1651908026): 4 files, no impossibilities.
-# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1651659295): 12 files, no impossibilities.
-# D:\Program Files\MATLAB\bin (key D:/Program Files/MATLAB/bin, mtime 1651692106): 19 files, no impossibilities.
-# C:\Windows\system32 (key C:/Win 
-dows/system32, mtime 1652159599): 3127 files, no impossibilities.
-# C:\Users\45032\.dotnet\tools: could not be stat'd.
+# C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/, mtime 1638528287): 12 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1648649061): 144 files, no impossibilities.
+# E:\Users\lenovo\AppData\Local\Programs\Python\Python310\Scripts\: could not be stat'd.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1638529091): 11 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/120/DTS/Binn/, mtime 1638528295): 38 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1652060830): 131 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1652060830): 131 files, no impossibilities.
+# D:\Program Files\MATLAB\R2022a\bin (key D:/Program Files/MATLAB/R2022a/bin, mtime 1647772883): 14 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1647866726): 155 files, no impossibilities.
+# C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\ (key C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/, mtime 1638528347): 73 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1633587293): 8 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1647866528): 32 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1652065975): 3004 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/120/Tools/Binn/, mtime 1638528287): 15 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1652065975): 3004 files, no impossibilities.
 
-# 4181 files, no impossibilities in 22 directories.
+# 7040 files, no impossibilities in 27 directories.
 
 # Implicit Rules
 
@@ -265,7 +273,7 @@ Debug: main.cpp login.cpp student.cpp students.cpp
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-10 19:53:11
+#  Last modified 2022-05-10 20:30:42
 #  File has been updated.
 #  Successfully updated.
 
@@ -308,15 +316,15 @@ main: main.cpp login.cpp student.cpp students.cpp
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 8 (6) / strings = 4104 / storage = 61208 B / avg = 14 B
-# current buf: size = 8174 B / used = 4065 B / count = 364 / avg = 11 B
-# other used: total = 53034 B / count = 3740 / avg = 14 B
-# other free: total = 75 B / max = 20 B / min = 4 B / avg = 10 B
+# strcache buffers: 7 (6) / strings = 3681 / storage = 56994 B / avg = 15 B
+# current buf: size = 8174 B / used = 8005 B / count = 467 / avg = 17 B
+# other used: total = 48820 B / count = 3214 / avg = 15 B
+# other free: total = 55 B / max = 14 B / min = 3 B / avg = 9 B
 
-# strcache performance: lookups = 4221 / hit rate = 2%
+# strcache performance: lookups = 7085 / hit rate = 48%
 # hash-table stats:
-# Load=4104/8192=50%, Rehash=0, Collisions=1767/4221=42%
-# Finished Make data base on Tue May 10 19:59:19 2022
+# Load=3681/8192=45%, Rehash=0, Collisions=2381/7085=34%
+# Finished Make data base on Tue May 10 20:31:02 2022
 
  
 make.exe: *** No rule to make target 'all'.  Stop.
