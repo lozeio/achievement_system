@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue May 10 19:25:02 2022
+# Make data base, printed on Tue May 10 19:59:19 2022
 
 # Variables
 
@@ -58,7 +58,8 @@ VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-09c648ad-2dcd-402c-9f40-53b65ec543
 # environment
 VSCODE_CWD = D:\Code\c++\liusenyuan\project
 # environment
-PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;D:\Program Files (x86)\NetSarang\Xshell 7\;D:\Program Files\MATLAB\runtime\win64;D:\Program Files\MATLAB\bin;D:\Program Files\MATLAB\polyspace\bin;C:\MinGW\bin;C:\MinGW\include;D:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64;D:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\Scripts;C:\Users\45032\AppData\Local\Microsoft\WindowsApps;D:\Users\45032\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\45032\.dotnet\tools
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;D:\Program Files (x86)\NetSarang\Xshell 7\;D:\Program Files\MATLAB\runtime\win64;D:\Program Files\MATLAB\bin;D:\Program Files\MATLAB\polyspace\bin;C:\MinGW\bin;C:\MinGW\include;D:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64;D:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\Scripts;C:\Users\45032\AppData\Local\Microsoft\Window 
+sApps;D:\Users\45032\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\45032\.dotnet\tools
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -179,7 +180,8 @@ LC_ALL = C
 SUFFIXES := 
 # environment
 SYSTEMDRIVE = C:
-# environment
+# envir 
+onment
 PROCESSOR_REVISION = 5000
 # default
 .INCLUDE_DIRS = C:/MinGW/include
@@ -204,7 +206,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-R8FBB7JJ
 
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1624908408): 5 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1651809816): 32 files, no impossibilities.
-# . (key d:/Code/c++/liusenyuan/project, mtime 1652167347): 16 files, no impossibilities.
+# . (key d:/Code/c++/liusenyuan/project, mtime 1652182564): 17 files, no impossibilities.
 # D:\Program Files\MATLAB\runtime\win64 (key D:/Program Files/MATLAB/runtime/win64, mtime 1651692156): 10 files, no impossibilities.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1651667357): 5 files, no impossibilities.
 # D:\Program Files\Git\cmd (key D:/Program Files/Git/cmd, mtime 1651662206): 8 files, no impossibilities.
@@ -222,10 +224,11 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-R8FBB7JJ
 # D:\Users\45032\AppData\Local\Programs\Microsoft VS Code\bin (key D:/Users/45032/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1651908026): 4 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1651659295): 12 files, no impossibilities.
 # D:\Program Files\MATLAB\bin (key D:/Program Files/MATLAB/bin, mtime 1651692106): 19 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1652159599): 3127 files, no impossibilities.
+# C:\Windows\system32 (key C:/Win 
+dows/system32, mtime 1652159599): 3127 files, no impossibilities.
 # C:\Users\45032\.dotnet\tools: could not be stat'd.
 
-# 4180 files, no impossibilities in 22 directories.
+# 4181 files, no impossibilities in 22 directories.
 
 # Implicit Rules
 
@@ -252,10 +255,17 @@ all:
 #  Modification time never checked.
 #  File has not been updated.
 
+Debug: main.cpp login.cpp student.cpp students.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 5):
+	g++ $^ -o $@ -g
+
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-10 14:57:04
+#  Last modified 2022-05-10 19:53:11
 #  File has been updated.
 #  Successfully updated.
 
@@ -291,22 +301,22 @@ main: main.cpp login.cpp student.cpp students.cpp
 	g++ $^ -o $@
 
 # files hash-table stats:
-# Load=9/1024=1%, Rehash=0, Collisions=0/23=0%
+# Load=10/1024=1%, Rehash=0, Collisions=0/28=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 8 (6) / strings = 4102 / storage = 61197 B / avg = 14 B
-# current buf: size = 8174 B / used = 4059 B / count = 363 / avg = 11 B
-# other used: total = 53023 B / count = 3739 / avg = 14 B
-# other free: total = 80 B / max = 20 B / min = 4 B / avg = 11 B
+# strcache buffers: 8 (6) / strings = 4104 / storage = 61208 B / avg = 14 B
+# current buf: size = 8174 B / used = 4065 B / count = 364 / avg = 11 B
+# other used: total = 53034 B / count = 3740 / avg = 14 B
+# other free: total = 75 B / max = 20 B / min = 4 B / avg = 10 B
 
-# strcache performance: lookups = 4214 / hit rate = 2%
+# strcache performance: lookups = 4221 / hit rate = 2%
 # hash-table stats:
-# Load=4102/8192=50%, Rehash=0, Collisions=1756/4214=42%
-# Finished Make data base on Tue May 10 19:25:02 2022
+# Load=4104/8192=50%, Rehash=0, Collisions=1767/4221=42%
+# Finished Make data base on Tue May 10 19:59:19 2022
 
  
 make.exe: *** No rule to make target 'all'.  Stop.
